@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+header{
+    background-color: rgb(160, 160, 160);
+    padding: 16px;
+}
+
+main{
+    display: flex;
+}
+
+.main {
+    background-color: antiquewhite;
+    flex-grow: 3;
+    padding: 16px;
+
+}
+
+.aside {
+    background-color: aquamarine;
+    flex-grow: 2;
+    padding: 16px;
+}
+
+.more_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    margin-top: 40px;
+}
+
+.more{
+    background-color: rgb(239, 201, 130);
+    padding: 16px;
+    flex-grow: 1;
+}
+
+.more3{
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(160, 160, 160);
+    padding: 16px;
+    display: flex;
+    gap: 16px;
+}
+
+.footer_item{
+    background-color: rgb(233, 230, 230);
+    padding: 16px;
+    flex-grow: 1;
+    width: auto;
+}
+
+
